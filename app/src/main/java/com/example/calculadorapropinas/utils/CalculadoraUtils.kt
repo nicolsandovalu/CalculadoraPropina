@@ -6,7 +6,4 @@ object CalculadoraUtils {
         return monto * porcentaje
     }
 
-    fun esNumeroValido(valor: String?): Boolean{
-        return !valor.isNullOrEmpty() && valor.toDoubleOrNull() != null && valor.toDouble() >= 0
-    }
 }
