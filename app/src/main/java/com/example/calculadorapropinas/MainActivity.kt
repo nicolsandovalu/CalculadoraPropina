@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
 
 
         if (montoTexto.isEmpty()) {
-            Toast.makeText(  this,  "El campo de monto está vacío", Toast.LENGTH_SHORT).show()
+            Toast.makeText(  this,  "Por favor ingresa un monto", Toast.LENGTH_SHORT).show()
             return
         }
 

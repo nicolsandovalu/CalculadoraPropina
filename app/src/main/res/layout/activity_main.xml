@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="24dp">
+    android:padding="24dp"
+    android:background="@color/colorBackground">
 
     <EditText
         android:id="@+id/etMonto"
@@ -18,7 +19,7 @@
         android:id="@+id/rgPorcentaje"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="18dp"
         android:orientation="horizontal">
 
         <RadioButton
@@ -52,7 +53,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Propina: $0.00"
-        android:textSize="18sp" />
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
 
 
     <TextView
@@ -60,7 +63,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Total Final: $0.00"
-        android:textSize="18sp" />
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
 
     <EditText
         android:id="@+id/etPersonalizado"
@@ -76,6 +81,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/colorText"
         android:text="Calcular" />
 
     <Button
@@ -83,5 +90,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/colorText"
         android:text="Limpiar" />
 </LinearLayout>

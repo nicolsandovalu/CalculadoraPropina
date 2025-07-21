@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#4CAF50</color>
-    <color name="colorPrimaryDark">#388E3C</color>
-    <color name="colorAccent">#FF9800</color>
-    <color name="colorBackground">#F5F5F5</color>
-    <color name="colorText">#212121</color>
-    <color name="colorTextSecondary">#757575</color>
-    <color name="colorError">#D32F2F</color>
-    <color name="colorTip">#03A9F4</color>
+    <color name="colorPrimary">#00695C</color> <!-- Verde petróleo -->
+    <color name="colorPrimaryDark">#004D40</color> <!-- Verde oscuro -->
+    <color name="colorAccent">#4173FB</color> <!-- Azul cobalto -->
+    <color name="colorBackground">#FAFAFA</color> <!-- Fondo muy claro -->
+    <color name="colorText">#FFFFFF</color> <!-- Texto principal -->
+    <color name="colorTextSecondary">#616161</color> <!-- Texto secundario -->
+    <color name="colorError">#D32F2F</color> <!-- Rojo error -->
+    <color name="colorTip">#0288D1</color> <!-- Azul informativo -->
 </resources>
